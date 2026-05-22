@@ -4,12 +4,13 @@ add2nc
 R-package to add or update global metadata attributes in NetCDF files
 
 
-Provides a convenience function to add or update global metadata attributes in an existing NetCDF file. Supports any site-level or dataset-level attributes supplied as a named list or as a two-column data frame.
-
+Provides functions to add data to a NetCDF file and to update/add global metadata attributes in an existing NetCDF file. 
 
 See 
 
+```{r}
 	help(package = add2nc) 
+```
 
 for details on the functions provided by this package.
 
