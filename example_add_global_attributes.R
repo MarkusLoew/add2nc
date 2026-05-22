@@ -8,7 +8,7 @@ attrs <- data.frame(
   name = c("Longitude", "Latitude", "Site_PI", "Contact"),
   value = c("144.52", "-37.43", "John Doe", "john@example.com")
 )
-result <- add_global_nc_nc_attributes(nc_path = nc_path, attributes = attrs)
+result <- add_global_nc_attributes(nc_path = nc_path, attributes = attrs)
 
 # Or with a named list
 attrs <- list(
@@ -17,4 +17,4 @@ attrs <- list(
   Site_PI = "Jane Smith",
   Contact = "jane@example.com"
 )
-result <- add_global_attributes(nc_path = nc_path, attributes = attrs)
+result <- add_global_nc_attributes(nc_path = nc_path, attributes = attrs)
