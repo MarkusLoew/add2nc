@@ -1,0 +1,5 @@
+^LICENSE\.md$
+^add2nc\.R$
+^add_global_attributes\.R$
+^import_netcdf\.R$
+^example_add_global_attributes\.R$

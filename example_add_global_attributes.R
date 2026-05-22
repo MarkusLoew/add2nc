@@ -1,4 +1,4 @@
-# Example usage of add_global_attributes function
+# Example usage of add_global_nc_attributes function
 # With a data frame
 
 # define locations of netcdf file to modify
@@ -8,7 +8,7 @@ attrs <- data.frame(
   name = c("Longitude", "Latitude", "Site_PI", "Contact"),
   value = c("144.52", "-37.43", "John Doe", "john@example.com")
 )
-result <- add_global_attributes(nc_path = nc_path, attributes = attrs)
+result <- add_global_nc_nc_attributes(nc_path = nc_path, attributes = attrs)
 
 # Or with a named list
 attrs <- list(

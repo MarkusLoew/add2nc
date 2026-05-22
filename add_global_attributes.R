@@ -33,7 +33,7 @@
 #'   name = c("longitude", "latitude", "site_pi", "contact"),
 #'   value = c("144.5234", "-37.4321", "John Doe", "john@example.com")
 #' )
-#' result <- add_global_attributes(
+#' result <- add_global_nc_attributes(
 #'   nc_path = "my_file.nc",
 #'   attributes = attrs_df,
 #'   new_file = TRUE,
@@ -47,11 +47,11 @@
 #'   site_pi = "Jane Smith",
 #'   contact = "jane@example.com"
 #' )
-#' result <- add_global_attributes(
+#' result <- add_global_nc_attributes(
 #'   nc_path = "my_file.nc",
 #'   attributes = attrs_list
 #' )
-add_global_attributes <- function(
+add_global_nc_attributes <- function(
   nc_path,
   attributes,
   new_file = TRUE,

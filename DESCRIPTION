@@ -1,0 +1,21 @@
+Package: add2nc
+Title: Add Variables and Attributes to Existing NetCDF Files
+Version: 0.1.0
+Authors@R: 
+    person("Markus", "Loew", email = "m.loew@unimelb.edu.au", role = c("aut", "cre"))
+Description: Provides utilities to add timestamp-aligned numeric vectors from a
+    data frame into an existing NetCDF file ('add2nc()'), and to add or update
+    global metadata attributes ('add_global_nc_attributes()').
+License: MIT + file LICENSE
+Encoding: UTF-8
+Roxygen: list(markdown = TRUE)
+Depends:
+    R (>= 4.1.0)
+Imports:
+    ncdf4,
+    CFtime,
+    tibble
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+Config/roxygen2/version: 8.0.0
